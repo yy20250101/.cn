@@ -38,7 +38,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.1); /* 进一步降低透明度，使背景更清晰可见 */
+    background-color: rgba(255, 255, 255, 0); /* 进一步降低透明度，使背景更清晰可见 */
     z-index: 1;
 }
 
@@ -251,7 +251,7 @@ header::before {
 .search-box {
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.9); /* 搜索框背景改为白色半透明 */
+    background-color: rgba(255, 255, 255, 0.6); /* 搜索框背景改为白色半透明 */
     border: none; /* 移除边框 */
     border-radius: 30px;
     padding: 5px;
@@ -312,7 +312,7 @@ header::before {
 
 /* 链接式按钮在头部区域的样式 */
 header .btn-link {
-    color: rgba(255, 255, 255, 0.9); /* 颜色改为白色半透明 */
+    color: rgba(255, 255, 255, 0.5); /* 颜色改为白色半透明 */
 }
 
 header .btn-link:hover {
