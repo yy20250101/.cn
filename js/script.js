@@ -17,6 +17,27 @@ const categories = [
 const initialSites = [
   // 搜索类
   {
+    "name": "谷歌人工智能工作室",
+    "url": "https://aistudio.google.com/welcome?utm_source=sourceforge&utm_medium=referral&utm_campaign=aistudio",
+    "category": "tools",
+    "icon": "bi-search",
+    "faviconUrl": "null"
+  },
+  {
+    "name": "萌萌哒临时邮箱",
+    "url": "https://www.moemail.cc/moe",
+    "category": "tools",
+    "icon": "bi-search",
+    "faviconUrl": "null"
+  },
+  {
+    "name": "dll文件下载库",
+    "url": "https://cn.dll-files.com/download/19de48c3f45c49d049e4a6df41057f3a/cublas64_10.dll.html?c=M1hxVWhpVEJCTUIzaDRaUlVXQ2tQZz09",
+    "category": "tools",
+    "icon": "bi-search",
+    "faviconUrl": "null"
+  },
+  {
     "name": "百度一下",
     "url": "https://www.baidu.com",
     "category": "search",
